@@ -21,3 +21,17 @@ isEven = function (numero){
   return isEven(numero-2);
   
 };
+
+countBs = function (cadena){
+  return countChar(cadena);
+}
+countChar = function (cadena, letra){
+  if(!letra){
+    letra = 'B'
+  }
+  var contador=0;
+  for (var i = 0; i < cadena.length; i++){
+    contador+=(cadena.charAt(i)==letra);
+  }  
+  return contador;
+}
