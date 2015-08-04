@@ -1,13 +1,13 @@
-function countChar(s, c){
-     var char_ctr = 0;
-    for (var i = 0; i  < s.length - 1; i ++ ){
-        if (s.charAt(i) == c){
+function countChar(s, c) {
+    var char_ctr = 0;
+    for (var i = 0; i < s.length - 1; i++) {
+        if (s.charAt(i) == c) {
             char_ctr++;
         }
     }
-    return char_ctr;   
+    return char_ctr;
 }
-function countBs(s){
+function countBs(s) {
     return countChar(s, 'B');
 }
 console.log(countBs("sdfghjk"));
