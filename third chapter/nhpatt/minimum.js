@@ -1,3 +1,7 @@
-/**
- * Created by aelian on 04/08/15.
- */
+function min(x, y) {
+    return x < y ? x : y;
+}
+
+console.log(min(3, 4));
+console.log(min(6, 4));
+console.log(min(6, -4));
