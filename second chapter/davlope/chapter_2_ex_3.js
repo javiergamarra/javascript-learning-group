@@ -1,19 +1,19 @@
 var size = 15;
-var odd_patttern = "";
-var even_patttern = "";
+var oddPattern = "";
+var evenPattern = "";
 for (var i = 0; i < size; i++) {
     if (i % 2 == 0) {
-        odd_patttern += "#";
-        even_patttern += " ";
+        oddPattern += "#";
+        evenPattern += " ";
     } else {
-        odd_patttern += " ";
-        even_patttern += "#";
+        oddPattern += " ";
+        evenPattern += "#";
     }
 }
 for (var i = 0; i < size; i++) {
     if (i % 2 == 0) {
-        console.log(even_patttern);
+        console.log(evenPattern);
     } else {
-        console.log(odd_patttern);
+        console.log(oddPattern);
     }
 }

@@ -1,7 +1,6 @@
 function isEven(n) {
     if (n < 0) {
-        console.log("Invalid value: ")
-        return n
+        return isEven(-n);
     } else if (n == 0) {
         return true;
     } else if (n == 1) {

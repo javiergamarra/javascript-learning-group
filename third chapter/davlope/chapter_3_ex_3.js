@@ -1,11 +1,11 @@
 function countChar(s, c) {
-    var char_ctr = 0;
+    var counter = 0;
     for (var i = 0; i < s.length - 1; i++) {
         if (s.charAt(i) == c) {
-            char_ctr++;
+            counter++;
         }
     }
-    return char_ctr;
+    return counter;
 }
 function countBs(s) {
     return countChar(s, 'B');
