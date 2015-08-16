@@ -3,19 +3,19 @@ function range(start, end, step) {
         start < end ? step = 1 : step = -1;
     }
 
-    var range_array = [];
-    for (var range_element = start; start < end ? range_element <= end : range_element >= end; range_element += step) {
-        range_array.push(range_element);
+    var rangeArray = [];
+    for (var rangeElement = start; start < end ? rangeElement <= end : rangeElement >= end; rangeElement += step) {
+        rangeArray.push(rangeElement);
     }
     return range_array;
 }
 
-function sum(numbers_array) {
-    var total_sum = 0;
-    for (var number_index = 0; number_index < numbers_array.length; number_index++) {
-        total_sum += numbers_array[number_index];
+function sum(numbersArray) {
+    var totalSum = 0;
+    for (var numberIndex = 0; numberIndex < numbersArray.length; numberIndex++) {
+        totalSum += numbers_array[numberIndex];
     }
-    return total_sum;
+    return totalSum;
 }
 console.log(sum(range(1, 10)));
 // → 55
