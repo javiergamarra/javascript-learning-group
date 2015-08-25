@@ -7,13 +7,13 @@ function range(start, end, step) {
     for (var rangeElement = start; start < end ? rangeElement <= end : rangeElement >= end; rangeElement += step) {
         rangeArray.push(rangeElement);
     }
-    return range_array;
+    return rangeArray;
 }
 
 function sum(numbersArray) {
     var totalSum = 0;
     for (var numberIndex = 0; numberIndex < numbersArray.length; numberIndex++) {
-        totalSum += numbers_array[numberIndex];
+        totalSum += numbersArray[numberIndex];
     }
     return totalSum;
 }
