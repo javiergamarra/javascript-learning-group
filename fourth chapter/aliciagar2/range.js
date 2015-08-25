@@ -2,7 +2,7 @@ var range = function (from, to, increment) {
     var rango = [];
     var step = increment || 1;
 
-    for (i = from; (to >= from) ? (i <= to) : (to <= i); i += step) {
+    for (var i = from; (to >= from) ? (i <= to) : (to <= i); i += step) {
         rango.push(i);
     }
 
