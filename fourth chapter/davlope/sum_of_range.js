@@ -1,6 +1,6 @@
 function range(start, end, step) {
-    if (typeof step == 'undefined') {
-        start < end ? step = 1 : step = -1;
+    if (!step) {
+        step = start < end ? 1 : -1;
     }
 
     var rangeArray = [];
