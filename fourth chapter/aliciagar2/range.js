@@ -1,12 +1,12 @@
 var range = function (from, to, increment) {
-    var rango = [];
+    var results = [];
     var step = increment || 1;
 
     for (var i = from; (to >= from) ? (i <= to) : (to <= i); i += step) {
-        rango.push(i);
+        results.push(i);
     }
 
-    return rango;
+    return results;
 };
 
 console.log(range(1, 10, 1));

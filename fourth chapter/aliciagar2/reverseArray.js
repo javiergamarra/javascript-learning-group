@@ -5,3 +5,6 @@ var reverseArray = function (arrayValue) {
     }
     return valueArray;
 };
+
+console.log(reverseArray([1, 2, 3, 4, 5]));
+console.log(reverseArray([1, 2, 3, 4]));
