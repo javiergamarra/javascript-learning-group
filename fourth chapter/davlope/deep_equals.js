@@ -10,7 +10,7 @@ function deepEqual(obj1, obj2) {
             return false;
         }
     }
-    return true;
+    return Object.keys(obj1).length == Object.keys(obj2).length;
 }
 
 var obj = {here: {is: "an"}, object: 2};
@@ -20,3 +20,6 @@ console.log(deepEqual(obj, {here: 1, object: 2}));
 // → false
 console.log(deepEqual(obj, {here: {is: "an"}, object: 2}));
 // → true
+
+console.log(deepEqual(obj, {here: {is: "an"}, object: 2, with: 3}));
+// → false
