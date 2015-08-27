@@ -1,6 +1,8 @@
 # javascript-learning-group
+
 Repo for resources &amp; notes for the JS learning group in Valladolid
 
+![Conway's Game Of Life with HTML5 canvas](screenshots/game_of_life.gif)
 
 ## Values, Types, and Operators
 
