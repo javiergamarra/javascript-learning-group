@@ -1,21 +1,22 @@
 function GameOfLife(size) {
     this.size = size;
-    this.world = createWorld(size);
+    this.deadCell = '_';
+    this.aliveCell = '*';
 
-    function createWorld(size) {
+    this.createWorld = function (size) {
         var world = [];
         for (var i = 0; i < size; i++) {
             world[i] = [];
             for (var j = 0; j < size; j++) {
-                world[i][j] = '_';
+                world[i][j] = this.deadCell;
             }
         }
         return world;
-    }
+    };
 
     this.alive = function (x, y) {
         if (x >= 0 && y >= 0 && x < size && y < size) {
-            return this.world[x][y] == '*';
+            return this.world[x][y] == this.aliveCell;
         }
         return false;
     };
@@ -33,6 +34,34 @@ function GameOfLife(size) {
     }
 }
 
+GameOfLife.prototype.init = function (size, number) {
+    this.world = this.createWorld(size);
+    while (number > 0) {
+        var randomX = Math.floor(Math.random() * size);
+        var randomY = Math.floor(Math.random() * size);
+        if (!this.alive(randomX, randomY)) {
+            this.world[randomX][randomY] = this.aliveCell;
+            number--;
+        }
+    }
+};
+
+GameOfLife.prototype.initWithPattern = function (size, number) {
+    this.world =
+        [
+            ['_', '_', '_', '_', '_', '_', '_', '_', '_', '_'],
+            ['_', '_', '_', '_', '_', '_', '_', '_', '_', '_'],
+            ['_', '_', '_', '_', '_', '_', '_', '_', '_', '_'],
+            ['_', '_', '_', '_', '_', '*', '*', '_', '_', '_'],
+            ['_', '_', '_', '_', '_', '*', '*', '_', '_', '_'],
+            ['_', '_', '_', '*', '*', '_', '_', '_', '_', '_'],
+            ['_', '_', '_', '*', '*', '_', '_', '_', '_', '_'],
+            ['_', '_', '_', '_', '_', '_', '_', '_', '_', '_'],
+            ['_', '_', '_', '_', '_', '_', '_', '_', '_', '_'],
+            ['_', '_', '_', '_', '_', '_', '_', '_', '_', '_']
+        ];
+};
+
 GameOfLife.prototype.print = function () {
     this.world.forEach(function (row) {
         var textRow = row.reduce(function (total, cell) {
@@ -44,17 +73,6 @@ GameOfLife.prototype.print = function () {
     console.log();
 };
 
-GameOfLife.prototype.init = function (size, number) {
-    while (number > 0) {
-        var randomX = Math.floor(Math.random() * size);
-        var randomY = Math.floor(Math.random() * size);
-        if (!this.alive(randomX, randomY)) {
-            this.world[randomX][randomY] = '*';
-            number--;
-        }
-    }
-};
-
 GameOfLife.prototype.step = function () {
     var newWorld = [];
 
@@ -64,16 +82,16 @@ GameOfLife.prototype.step = function () {
 
             var neighbours = this.neighbours(i, j);
             var alive = (neighbours == 2 && this.alive(i, j)) || neighbours == 3;
-            newWorld[i][j] = alive ? '*' : '_';
+            newWorld[i][j] = alive ? this.aliveCell : this.deadCell;
         }
     }
 
     this.world = newWorld;
 };
 
-var size = 5;
-var gol = new GameOfLife(size);
-gol.init(size, 10);
-gol.print();
-gol.step();
-gol.print();
+//var size = 5;
+//var gol = new GameOfLife(size);
+//gol.init(size, 10);
+//gol.print();
+//gol.step();
+//gol.print();
