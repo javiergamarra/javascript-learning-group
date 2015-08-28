@@ -1,18 +1,18 @@
-function every(array, test){
-  for (var i = 0; i < array.length; i++){
-    if (!test(array[i])){
-      return false;
+function every(array, test) {
+    for (var i = 0; i < array.length; i++) {
+        if (!test(array[i])) {
+            return false;
+        }
     }
-  }
-  return true;
+    return true;
 }
-function some(array, test){
-  for (var i = 0; i < array.length; i++){
-    if (test(array[i])){
-      return true;
+function some(array, test) {
+    for (var i = 0; i < array.length; i++) {
+        if (test(array[i])) {
+            return true;
+        }
     }
-  }
-  return false;
+    return false;
 }
 console.log(every([NaN, NaN, NaN], isNaN));
 // → true
