@@ -8,6 +8,12 @@ Repo for resources &amp; notes for the JS learning group in Valladolid
 
 *Missing resume*
 
+### Comments about the exercises
+
+* Chessboard in canvas
+
+<img src="screenshots/chessboard.png" height="200px"/>
+
 ## Program structure
 
 *Missing resume*
@@ -38,6 +44,15 @@ Classic fields, available through dot notation and square brackets (metaprogramm
 * You can delete a property (very uncommon)
 * And check with if a property exists `in`
 * Existing values in JS (numbers, strings and booleans) are immutable.
+
+
+## The Secret Life of Objects
+
+*Missing resume*
+
+## Project: Electronic Life
+
+*Missing resume*
 
 ## Higher order functions
 
