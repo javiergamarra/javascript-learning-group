@@ -54,6 +54,10 @@ Classic fields, available through dot notation and square brackets (metaprogramm
 
 *Missing resume*
 
+![SmartPlantEaters](screenshots/artificial_stupidity.gif)
+
+![Tigers](screenshots/predators.gif)
+
 ## Higher order functions
 
 Abstractions hide details and allow us to work in a more abstract level.
