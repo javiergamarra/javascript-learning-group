@@ -1,10 +1,22 @@
-# javascript-learning-group
+# Javascript Learning Group
 
-Repo for resources &amp; notes for the JS learning group in Valladolid
+Repo for resources &amp; notes for the JS Learning Group by @nhpatt
 
 ![Conway's Game Of Life with HTML5 canvas](screenshots/game_of_life.gif)
 
+## Index
+
+* [Values, Types, and Operators](#chapter1)
+* [Program structure](#chapter2)
+* [Functions](#chapter3)
+* [Data Structures: Objects and Arrays](#chapter4)
+* [The Secret Life of Objects](#chapter5)
+* [Higher order functions](#chapter6)
+* [Project: Electronic Life](#chapter7)
+* [Conventions, tips & tricks](#notes)
+
 ## Values, Types, and Operators
+<a name="chapter1"></a>
 
 *Missing resume*
 
@@ -14,14 +26,17 @@ Repo for resources &amp; notes for the JS learning group in Valladolid
 
 <img src="screenshots/chessboard.png" height="200px"/>
 
+<a name="chapter2"></a>
 ## Program structure
 
 *Missing resume*
 
+<a name="chapter3"></a>
 ## Functions
 
 *Missing resume*
 
+<a name="chapter4"></a>
 ## Data Structures: Objects and Arrays
 
 ### Arrays
@@ -45,19 +60,7 @@ Classic fields, available through dot notation and square brackets (metaprogramm
 * And check with if a property exists `in`
 * Existing values in JS (numbers, strings and booleans) are immutable.
 
-
-## The Secret Life of Objects
-
-*Missing resume*
-
-## Project: Electronic Life
-
-*Missing resume*
-
-![SmartPlantEaters](screenshots/artificial_stupidity.gif)
-
-![Tigers](screenshots/predators.gif)
-
+<a name="chapter5"></a>
 ## Higher order functions
 
 Abstractions hide details and allow us to work in a more abstract level.
@@ -71,6 +74,21 @@ Abstractions hide details and allow us to work in a more abstract level.
 * functional functions are great but be aware of the efficiency
 * `bind` let us apply arguments.
 
+<a name="chapter6"></a>
+## The Secret Life of Objects
+
+*Missing resume*
+
+<a name="chapter7"></a>
+## Project: Electronic Life
+
+*Missing resume*
+
+![SmartPlantEaters](screenshots/artificial_stupidity.gif)
+
+![Tigers](screenshots/predators.gif)
+
+<a name="notes"></a>
 ## Notes from several sessions:
 
 ### Idiomatic JS
