@@ -8,7 +8,7 @@ function loadGameOfLife(size, rows, seed) {
     var ctx = canvas.getContext('2d');
     var rowWidth = size / rows;
 
-    var delay = 1000;
+    var delay = 50;
 
     function print() {
 
