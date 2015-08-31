@@ -18,7 +18,7 @@ Repo for resources &amp; notes for the JS Learning Group by @nhpatt
 ## Values, Types, and Operators
 <a name="chapter1"></a>
 
-*Missing resume*
+*Missing description*
 
 ### Comments about the exercises
 
@@ -29,12 +29,12 @@ Repo for resources &amp; notes for the JS Learning Group by @nhpatt
 <a name="chapter2"></a>
 ## Program structure
 
-*Missing resume*
+*Missing description*
 
 <a name="chapter3"></a>
 ## Functions
 
-*Missing resume*
+*Missing description*
 
 <a name="chapter4"></a>
 ## Data Structures: Objects and Arrays
@@ -77,19 +77,19 @@ Abstractions hide details and allow us to work in a more abstract level.
 <a name="chapter6"></a>
 ## The Secret Life of Objects
 
-*Missing resume*
+*Missing description*
 
 <a name="chapter7"></a>
 ## Project: Electronic Life
 
-*Missing resume*
+*Missing description*
 
 ![SmartPlantEaters](screenshots/artificial_stupidity.gif)
 
 ![Tigers](screenshots/predators.gif)
 
 <a name="notes"></a>
-## Notes from several sessions:
+## Notes from several sessions:res
 
 ### Idiomatic JS
 
