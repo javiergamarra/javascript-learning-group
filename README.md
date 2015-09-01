@@ -10,8 +10,8 @@ Repo for resources &amp; notes for the JS Learning Group by @nhpatt
 * [Program structure](#chapter2)
 * [Functions](#chapter3)
 * [Data Structures: Objects and Arrays](#chapter4)
-* [The Secret Life of Objects](#chapter5)
-* [Higher order functions](#chapter6)
+* [Higher order functions](#chapter5)
+* [The Secret Life of Objects](#chapter6)
 * [Project: Electronic Life](#chapter7)
 * [Conventions, tips & tricks](#notes)
 
