@@ -18,11 +18,14 @@ function loadGameOfLife(size, rows, seed) {
 
         for (var i = 0; i < rows; i++) {
             for (var j = 0; j < rows; j++) {
+                var height = rowWidth * i;
+                var width = rowWidth * j;
+
                 if (gol.alive(i, j)) {
-                    ctx.fillRect(rowWidth * i, rowWidth * j, rowWidth, rowWidth);
+                    ctx.fillRect(height, width, rowWidth, rowWidth);
                 } else {
-                    ctx.clearRect(rowWidth * i, rowWidth * j, rowWidth, rowWidth);
-                    ctx.strokeRect(rowWidth * i, rowWidth * j, rowWidth, rowWidth);
+                    ctx.clearRect(height, width, rowWidth, rowWidth);
+                    ctx.strokeRect(height, width, rowWidth, rowWidth);
                 }
             }
         }
