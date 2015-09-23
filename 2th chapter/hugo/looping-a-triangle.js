@@ -6,4 +6,5 @@ function printTriangle() {
         strToPrint += '#';
     }
 }
-exercise1();
+
+printTriangle();
