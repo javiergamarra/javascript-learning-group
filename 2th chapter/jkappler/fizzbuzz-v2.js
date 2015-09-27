@@ -1,13 +1,17 @@
 for (var i = 1; i <= 100; i++) {
+    console.log(calculate(i));
+}
+
+function calculate(i) {
     switch (true) {
         case (i % 15 == 0):
-            console.log('FizzBuzz');
-            break;
+            return 'FizzBuzz';
         case (i % 3 == 0):
-            console.log('Fizz');
-            break;
+            return 'Fizz';
         case (i % 5 == 0):
-            console.log('Buzz');
-            break;
+            return 'Buzz';
+        default:
+            return i;
     }
 }
+
