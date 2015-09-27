@@ -1,5 +1,5 @@
 for (var i = 1; i <= 100; i++) {
-    switch(true){
+    switch (true) {
         case (i % 15 == 0):
             console.log('FizzBuzz');
             break;

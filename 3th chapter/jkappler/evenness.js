@@ -1,7 +1,7 @@
-function isEven(number){
+function isEven(number) {
     number = Math.abs(number);
 
-    if(number == 0){
+    if (number == 0) {
         return true;
     }
     else if (number == 1) {

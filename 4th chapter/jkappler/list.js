@@ -1,5 +1,5 @@
 function arrayToList(arr) {
-    if(arr.length == 0){
+    if (arr.length == 0) {
         return null;
     }
 
@@ -13,7 +13,7 @@ function arrayToList(arr) {
 function listToArray(list) {
     var arr = [];
 
-    for(var node = list; node; node = node.rest){
+    for (var node = list; node; node = node.rest) {
         console.log(node.value);
         arr.push(node.value);
     }

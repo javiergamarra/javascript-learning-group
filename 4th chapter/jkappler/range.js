@@ -1,7 +1,7 @@
 function sum_v1(arr) {
     var counter = 0;
 
-    for(var i = 0; i < arr.length; i++){
+    for (var i = 0; i < arr.length; i++) {
         counter += arr[i];
     }
 
@@ -11,7 +11,7 @@ function sum_v1(arr) {
 function sum_v2(arr) {
     var counter = 0;
 
-    arr.forEach(function(entry){
+    arr.forEach(function (entry) {
         counter += entry;
     });
 
@@ -19,23 +19,25 @@ function sum_v2(arr) {
 }
 
 function sum_v3(arr) {
-    return arr.reduce(function(x, y){ return x + y});
+    return arr.reduce(function (x, y) {
+        return x + y
+    });
 }
 
 function range(x, y, z) {
     var arr = [];
 
-    if(z == undefined || z == 0) {
+    if (z == undefined || z == 0) {
         z = 1;
     }
 
-    if(z > 0){
-        for(var i = x; i <= y; i+=z){
+    if (z > 0) {
+        for (var i = x; i <= y; i += z) {
             arr.push(i);
         }
     }
-    else{
-        for(var i = x; i >= y; i+=z){
+    else {
+        for (var i = x; i >= y; i += z) {
             arr.push(i);
         }
     }
