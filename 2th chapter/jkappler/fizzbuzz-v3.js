@@ -4,11 +4,10 @@ for (var i = 1; i <= 100; i++) {
     if (i % 3 == 0) {
         message = 'Fizz';
     }
+
     if (i % 5 == 0) {
-        message = message + 'Buzz';
+        message += 'Buzz';
     }
 
-    if (message.length > 0) {
-        console.log(message);
-    }
+    console.log(message || i);
 }
