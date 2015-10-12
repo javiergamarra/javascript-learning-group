@@ -13,6 +13,7 @@ Repo for resources &amp; notes for the JS Learning Group by @nhpatt
 * [Higher order functions](#chapter5)
 * [The Secret Life of Objects](#chapter6)
 * [Project: Electronic Life](#chapter7)
+* [Bugs and Error handling](#chapter8)
 * [Conventions, tips & tricks](#notes)
 
 ## Values, Types, and Operators
@@ -88,8 +89,40 @@ Abstractions hide details and allow us to work in a more abstract level.
 
 ![Tigers](screenshots/predators.gif)
 
+<a name="chapter8"></a>
+## Bugs and Error Handling
+
+Bugs are unavoidable and we have to learn to deal with them.
+
+* JS is very tolerant with errors and bugs, usually keeps computing until it finishes.
+* Calling something that is not a function or looking a property of undefined will halt the program.
+* JS can be made more strict by enabling *strict mode* at the top of a file or function.
+	* Fails when using variables not defined
+	* Fails when using this when functions are not called as methods
+
+	**please, use strict mode**
+	
+* Do testing, either manually, with a custom method or a library.
+* We can do *manual* debugging with `console.log` or a browser.
+* How to do error propagation?
+	* return `null` or a special value
+	* Exceptions!
+
+### Exceptions
+
+* `throw` raises an exception
+* `try` and `catch (error)` mechanism.
+* `new Error(message)` is the typical object thrown.
+* `finally` as everybody is used to.
+* JS does not have selective catching of exceptions (for example, we can't define several `catch` clauses).
+* But we can create our own exception (should have a name property and an stack like `(new Error()).stack)`.
+
+### Assertions
+
+* We can do custom checks with assets after defining our own custom function.
+
 <a name="notes"></a>
-## Notes from several sessions:res
+## Notes from several sessions
 
 ### Idiomatic JS
 
