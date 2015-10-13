@@ -1,13 +1,11 @@
 function arrayToList(arr) {
-    if (arr.length == 0) {
-        return null;
+    if (arr.length) {
+        return {
+            value: arr[0],
+            rest: arrayToList(arr.splice(1, arr.length))
+        }
     }
-
-    return {
-        value: arr[0],
-        rest: arrayToList(arr.splice(1, arr.length))
-    }
-
+    return null;
 }
 
 function listToArray(list) {
@@ -18,3 +16,5 @@ function listToArray(list) {
         arr.push(node.value);
     }
 }
+
+console.log(arrayToList([2, 3]));
