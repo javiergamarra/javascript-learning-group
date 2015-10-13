@@ -1,11 +1,15 @@
 function every(array, test) {
-	console.log("Every --> Received array:", array);
-	return array.length == 0 ? true : test(array[0]) && every(array.splice(1), test);
+    console.log("Every --> Received array:", array);
+    return array.length ? test(array[0]) && every(array.splice(1), test) : true;
 }
 
 function some(array, test) {
-	console.log("Some --> Received array:", array);
-	return array.length == 0 ? false : test(array[0]) || some(array.splice(1), test);
+    console.log("Some --> Received array:", array);
+
+    if (array.length) {
+        return test(array[0]) || some(array.splice(1), test)
+    }
+    return false;
 }
 
 console.log("every", every([NaN, NaN, NaN], isNaN));
