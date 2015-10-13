@@ -1,45 +1,38 @@
 // Your code here.
-function RangeSeq(start, end) {
+function Seq() {
     this.counter = 0;
-    this.elements = new Array(end - start + 1).fill().map((x, i) => start + i);
+    this.elements = []
     this.limit = this.elements.length;
 }
-RangeSeq.prototype.next = function () {
+Seq.prototype.next = function () {
     if (this.hasNext()) {
         console.log(this.elements[this.counter]);
     }
     this.counter += 1;
 };
-RangeSeq.prototype.hasNext = function () {
+Seq.prototype.hasNext = function () {
     return this.counter < this.limit && this.counter < this.elements.length
 };
-RangeSeq.prototype.iterate = function (limit) {
+Seq.prototype.iterate = function (limit) {
     this.limit = limit || this.elements.length;
     while (this.hasNext()) {
         this.next();
     }
 };
 
+function RangeSeq(start, end) {
+    this.counter = 0;
+    this.elements = new Array(end - start + 1).fill().map((x, i) => start + i);
+    this.limit = this.elements.length;
+}
+RangeSeq.prototype = Object.create(Seq.prototype);
+
 function ArraySeq(elements) {
     this.counter = 0;
     this.elements = elements;
     this.limit = this.elements.length;
 }
-ArraySeq.prototype.next = function () {
-    if (this.hasNext()) {
-        console.log(this.elements[this.counter]);
-    }
-    this.counter += 1;
-};
-ArraySeq.prototype.hasNext = function () {
-    return this.counter < this.limit && this.counter < this.elements.length
-};
-ArraySeq.prototype.iterate = function (limit) {
-    this.limit = limit || this.elements.length;
-    while (this.hasNext()) {
-        this.next();
-    }
-};
+ArraySeq.prototype = Object.create(Seq.prototype);
 
 function logFive(seq) {
     seq.iterate(5);
