@@ -27,9 +27,12 @@ function withBoxUnlocked(fun) {
     }
 }
 
-var danger = function() {throw new Error('fail!')};
+var danger = function () {
+    throw new Error('fail!')
+};
 
-var safe = function() {};
+var safe = function () {
+};
 
 withBoxUnlocked(safe);
 withBoxUnlocked(danger);

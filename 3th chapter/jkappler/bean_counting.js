@@ -1,12 +1,12 @@
-function countChar(str, character){
+function countChar(str, character) {
     var count = 0;
-    
-    for(var i = 0; i < str.length; i++) {
-        if(str.charAt(i) === character) {
+
+    for (var i = 0; i < str.length; i++) {
+        if (str.charAt(i) === character) {
             count++;
         }
     }
-    
+
     return count;
 }
 

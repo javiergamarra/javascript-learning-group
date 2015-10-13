@@ -1,13 +1,13 @@
 function every_v1(array, predicate) {
-    array.forEach(function(entry) {
-        if(!predicate(entry)) return false;
+    array.forEach(function (entry) {
+        if (!predicate(entry)) return false;
     });
 
     return true;
 }
 
 function every_v2(array, predicate) {
-    var filter = array.filter(function(entry) {
+    var filter = array.filter(function (entry) {
         return predicate(entry);
     });
 
@@ -15,15 +15,15 @@ function every_v2(array, predicate) {
 }
 
 function some_v1(array, predicate) {
-    array.forEach(function(entry) {
-        if(predicate(entry)) return true;
+    array.forEach(function (entry) {
+        if (predicate(entry)) return true;
     });
 
     return false;
 }
 
 function some_v2(array, predicate) {
-    var filter = array.filter(function(entry) {
+    var filter = array.filter(function (entry) {
         return predicate(entry);
     });
 

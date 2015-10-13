@@ -1,5 +1,5 @@
 function flatten_array(arr) {
-    return arr.reduce(function(acc, curr) {
+    return arr.reduce(function (acc, curr) {
         return acc.concat(curr);
     });
 }

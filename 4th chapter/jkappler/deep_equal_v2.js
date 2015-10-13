@@ -4,22 +4,22 @@ function isObject(obj) {
 
 function deepEqual(obj1, obj2) {
 
-    if(isObject(obj1) && isObject(obj2)) {
+    if (isObject(obj1) && isObject(obj2)) {
         var obj1Keys = Object.keys(obj1);
-        
-        for(var i = 0; i < obj1Keys.length; i++) {
+
+        for (var i = 0; i < obj1Keys.length; i++) {
             var key = obj1Keys[i];
-            
-            if(!(key in obj2)) {
+
+            if (!(key in obj2)) {
                 return false;
             }
             return deepEqual(obj1[key], obj2[key]);
         }
-    } 
-    else if(obj1 !== obj2) {
+    }
+    else if (obj1 !== obj2) {
         return false;
     }
-    
+
     return true;
 }
 
