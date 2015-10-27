@@ -1,7 +1,7 @@
 // Your code here.
 function Seq() {
     this.counter = 0;
-    this.elements = []
+    this.elements = [];
     this.limit = this.elements.length;
 }
 Seq.prototype.next = function () {
@@ -19,7 +19,6 @@ Seq.prototype.iterate = function (limit) {
         this.next();
     }
 };
-
 function RangeSeq(start, end) {
     this.counter = 0;
     this.elements = new Array(end - start + 1).fill().map((x, i) => start + i);
