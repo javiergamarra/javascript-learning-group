@@ -11,12 +11,11 @@ function deepEqual(obj1, obj2) {
                 }
             }
         }
+        return Object.keys(obj1).length == Object.keys(obj2).length;
     }
     else if (obj1 !== obj2) {
         return false;
     }
-
-    return Object.keys(obj1).length == Object.keys(obj2).length;
 }
 
 var obj = {here: {is: "an"}, object: 2};
