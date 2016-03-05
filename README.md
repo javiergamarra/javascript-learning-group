@@ -14,6 +14,7 @@ Repo for resources &amp; notes for the JS Learning Group by @nhpatt
 * [The Secret Life of Objects](#chapter6)
 * [Project: Electronic Life](#chapter7)
 * [Bugs and Error handling](#chapter8)
+* [Drawing on Canvas](#chapter16)
 * [Conventions, tips & tricks](#notes)
 
 ## Values, Types, and Operators
@@ -120,6 +121,47 @@ Bugs are unavoidable and we have to learn to deal with them.
 ### Assertions
 
 * We can do custom checks with assets after defining our own custom function.
+
+<a name="chapter16"></a>
+## Drawing on Canvas
+
+* SVG = vector shapes, against canvas that is **not** vectorial.
+* SVG -> circle, rect elements with xml namespace.
+* Canvas -> 2d & 3d (WebGL)
+
+### Canvas
+
+* `<canvas></canvas>` with width and height
+* Based on the context object, document.getElementById('').getContext("2d")
+
+### Methods
+
+* Vector methods
+	* ctx.fillRect(10, 10, 100, 50) and ctx.fillStyle = 'red'
+	* fill, give color to an area with fillStyle
+	* stroke, give color to a border with strokeStyle
+	* lineWidth, to add width to a border
+	* path, sequence of lines with beginPath(), moveTo or lineTo and stroke to finish.
+	* in a path you can use fill if the path is closed or it will be closed automatically
+	* quadraticCurveTo to draw a curve by attracting
+	* and bezierCurve
+	* and arcTo
+* so we can do a pie chart by applying math (:S)
+
+* Text methods
+	* `fillText` allows us to paint text (strokeText maybe useful too), with position.
+
+* Images
+	* `drawImage` can paint a bitmap image based on a `<img>` but we need to wait until it's loaded.
+	* We also can paint sprites (`drawImage` with 9 arguments).
+
+* Transformation
+	* `ctx.scale` allows to scale the next thing it's painted.
+	* scaling allows negative values to flip things
+	* but we hace to play with `translate` and coordinate systems to paint it inside our canvas region
+
+* Store state
+	* `save` and `restore` allows us to use a stack of states.
 
 <a name="notes"></a>
 ## Notes from several sessions
