@@ -1,3 +1,5 @@
 .idea/*
 
 *compiled.js*
+
+node_modules/
