@@ -190,6 +190,7 @@ Example in few lines of JS:
 * Set a default value with `||`, for example:
 
 	```javascript
+	var something_that_could_be_undefined = undefined;
 	var number = something_that_could_be_undefined || 0;
 	```
 
@@ -201,12 +202,12 @@ Example in few lines of JS:
 * Module pattern, a way of having *private* methods and properties. Typically similar to: `(function() {} return {})()`. A function that is being executed instantly. For example:
 
 	```javascript
-	(function module_pattern_revealed {
+	(function module_pattern_revealed() {
 
 	var private_element = 2;
 
 	function example_function() {
-	    operate_with_private_element
+	    //operate_with_private_element
 	}
 
 	return {
@@ -238,13 +239,14 @@ We have 4 ways of invoking a function:
 	    }
 	};
 
-	myObject.increment(); -> 1
-	myObject.increment(2); -> 3
+	myObject.increment();  // 1
+	myObject.increment(2); // 3
 	```
 	
 2. Function invocation, where `this` is the scope of the “global” object (`window` in a browser).
 
 	```javascript
+	var myObject = {};
 	myObject.double = function () {
 	    var that = this; // Workaround.
 	    var helper = function () {
@@ -274,7 +276,7 @@ We have 4 ways of invoking a function:
 
 	// Make an instance of Quo.
 	var myQuo = new Quo("value");
-	myQuo.get_status() -> value
+	myQuo.get_status() // value
 	```
 
 4. And use `bind`, `apply`, `call`... where the programmer sets the value of `this`.
