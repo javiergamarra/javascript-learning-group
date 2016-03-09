@@ -134,6 +134,19 @@ Bugs are unavoidable and we have to learn to deal with them.
 * `<canvas></canvas>` with width and height
 * Based on the context object, document.getElementById('').getContext("2d")
 
+<canvas id="example" style="background-color: #DDDDDD"></canvas>
+
+<script type="text/javascript">
+
+var ctx = document.getElementById('example').getContext("2d");
+ctx.strokeStyle = 'purple';
+ctx.strokeRect(10, 10, 50, 50);
+
+ctx.fillStyle = 'red';
+ctx.fillRect(25, 25, 50, 50);
+
+</script>
+
 ### Methods
 
 * Vector methods
@@ -162,6 +175,10 @@ Bugs are unavoidable and we have to learn to deal with them.
 
 * Store state
 	* `save` and `restore` allows us to use a stack of states.
+
+Example in few lines of JS:
+
+![mondrian](screenshots/mondrian.png)
 
 <a name="notes"></a>
 ## Notes from several sessions

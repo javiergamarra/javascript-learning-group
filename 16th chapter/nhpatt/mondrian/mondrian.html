@@ -1,0 +1,36 @@
+<html>
+
+<body>
+
+<canvas id="mondrian" height="1000" width="1000" style="background-color: #eeeeee"></canvas>
+
+<script type="text/javascript">
+    var canvas = document.getElementById('mondrian');
+    var ctx = canvas.getContext('2d');
+    ctx.strokeStyle = 'black';
+
+    line(0, 330, 200, 330, 60);
+    line(215, 0, 215, 1000, 30);
+    line(0, 715, 1000, 715, 30);
+    line(870, 700, 870, 1000, 35);
+    line(870, 850, 1000, 850, 40);
+
+    ctx.fillStyle = 'blue';
+    ctx.fillRect(0, 730, 200, 300);
+    ctx.fillStyle = 'red';
+    ctx.fillRect(230, 0, 1000, 700);
+    ctx.fillStyle = 'yellow';
+    ctx.fillRect(888, 870, 1000, 1000);
+
+    function line(startX, startY, endX, endY, width) {
+        ctx.beginPath();
+        ctx.lineWidth = width;
+        ctx.moveTo(startX, startY);
+        ctx.lineTo(endX, endY);
+        ctx.stroke();
+    }
+</script>
+
+</body>
+
+</html>
