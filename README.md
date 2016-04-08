@@ -15,6 +15,7 @@ Repo for resources &amp; notes for the JS Learning Group by @nhpatt
 * [Project: Electronic Life](#chapter7)
 * [Bugs and Error handling](#chapter8)
 * [Drawing on Canvas](#chapter16)
+* [HTTP](#chapter17)
 * [Conventions, tips & tricks](#notes)
 
 ## Values, Types, and Operators
@@ -180,6 +181,24 @@ Example in few lines of JS:
 
 ![mondrian](screenshots/mondrian.png)
 
+<a name="chapter17"></a>
+## HTTP
+
+* *GET*, *DELETE*, *PUT*, *POST*...
+* 2xx -> **OK**, 3xx -> not here, 4xx -> you messed up, 5xx -> we messed up
+* *encodeURIComponent* to encode to url format and *decodeURIComponent* to decode it
+
+### XMLHttpRequest
+
+```javascript
+var req = new XMLHttpRequest();
+req.open("GET", "example/data.txt", false);
+req.send(null);
+console.log(req.responseText);
+```
+
+* Relative *GET* request
+* ...
 <a name="notes"></a>
 ## Notes from several sessions
 
