@@ -16,6 +16,7 @@ Repo for resources &amp; notes for the JS Learning Group by @nhpatt
 * [Bugs and Error handling](#chapter8)
 * [Drawing on Canvas](#chapter16)
 * [HTTP](#chapter17)
+* [Forms and Form Fields](#chapter18)
 * [Conventions, tips & tricks](#notes)
 
 ## Values, Types, and Operators
@@ -199,6 +200,13 @@ console.log(req.responseText);
 
 * Relative *GET* request
 * ...
+
+<a name="chapter18"></a>
+## Forms and Form Fields
+
+* Forms are special
+* 
+
 <a name="notes"></a>
 ## Notes from several sessions
 
@@ -316,3 +324,16 @@ The solutions are:
 
 * [Eloquent Javascript](http://eloquentjavascript.net/)
 * [Annotated version](https://watchandcode.com/courses/eloquent-javascript-the-annotated-version)
+
+
+### FIXME
+
+* sum_of_range bug
+* missing exercises
+* missing summaries
+* performance?
+* testing?
+* gulp?
+* lint?
+* ecma6?
+* exploringJS?
