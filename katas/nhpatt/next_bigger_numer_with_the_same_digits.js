@@ -30,5 +30,3 @@ function findNextBiggest(arr, x) {
 // console.log(nextBigger(144),414);
 // console.log(nextBigger(1234567890), 1234567908);
 console.log(nextBigger(459853), 483559);
-// 59884848459853
-// Expected: 59884848483559, instead got: 493558

@@ -23,4 +23,3 @@ console.log(oddity(1), 'odd');
 console.log(oddity(5), 'even');
 console.log(oddity(16), 'odd');
 console.log(oddity(234), 'even');
-// [1, 234, 2, 3, 39, 13]
