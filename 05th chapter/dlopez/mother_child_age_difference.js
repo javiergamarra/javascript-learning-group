@@ -21,5 +21,5 @@ function isUndefined(value) {
     return typeof value != 'undefined';
 }
 
-console.log(average(ancestry.map(motherAgeWhenChildBorn).filter(isUndefined)))
+console.log(average(ancestry.map(motherAgeWhenChildBorn).filter(isUndefined)));
 // → 31.2

@@ -2,7 +2,7 @@ function deepEqual(obj, another) {
     if (obj === another) {
         return true;
     } else if (obj && another && typeof obj === "object" && typeof another === "object") {
-        for (prop in obj) {
+        for (var prop in obj) {
             if (!(prop in another) || !deepEqual(obj[prop], another[prop])) {
                 return false;
             }
