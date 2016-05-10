@@ -17,7 +17,7 @@ function oddity(n) {
     return number % 2 ? 'odd' : 'even';
 }
 
-oddity = n => (n ** 0.5) % 1 ? 'even' : 'odd';
+const oddity = n => (n ** 0.5) % 1 ? 'even' : 'odd';
 
 console.log(oddity(1), 'odd');
 console.log(oddity(5), 'even');
