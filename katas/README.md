@@ -4,9 +4,9 @@
 
 ### Pending
 
-* *[Methods of string object slice substring and substr](http://www.codewars.com/kata/training-js-number-16-methods-of-string-object-slice-substring-and-substr)*
-* *[Loop statement for dot in and for dot of](http://www.codewars.com/kata/training-js-number-12-loop-statement-for-dot-in-and-for-dot-of)*
-* *[Name on billboard](http://www.codewars.com/kata/name-on-billboard)*
+* [Methods of string object slice substring and substr](http://www.codewars.com/kata/training-js-number-16-methods-of-string-object-slice-substring-and-substr)
+* [Loop statement for dot in and for dot of](http://www.codewars.com/kata/training-js-number-12-loop-statement-for-dot-in-and-for-dot-of)
+* [Name on billboard](http://www.codewars.com/kata/name-on-billboard)
 
 ### Reviewed
 
