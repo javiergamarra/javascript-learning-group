@@ -19,8 +19,8 @@
 ### Pending
 
 * [Reducing by steps](http://www.codewars.com/kata/reducing-by-steps)
-* *[Hangman game](http://www.codewars.com/kata/hangman-game)*
-* *[Next version](http://www.codewars.com/kata/next-version)*
+* [Hangman game](http://www.codewars.com/kata/hangman-game)
+* [Next version](http://www.codewars.com/kata/next-version)
 
 ### Reviewed
 
