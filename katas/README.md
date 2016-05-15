@@ -32,4 +32,4 @@
 ### Pending
 
 * [Next bigger number with the same digits](http://www.codewars.com/kata/next-bigger-number-with-the-same-digits)
-* *[Explosive sum](http://www.codewars.com/kata/explosive-sum)*
+* [Explosive sum](http://www.codewars.com/kata/explosive-sum)
