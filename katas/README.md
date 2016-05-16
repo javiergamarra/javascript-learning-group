@@ -21,8 +21,8 @@
 
 ### Pending
 
-* *[Decode diagonal](http://www.codewars.com/kata/decode-diagonal)*
-* *[Magic The Gathering](http://www.codewars.com/kata/magic-the-gathering-number-1-creatures)*
+* [Decode diagonal](http://www.codewars.com/kata/decode-diagonal)
+* [Magic The Gathering](http://www.codewars.com/kata/magic-the-gathering-number-1-creatures)
 * [Reducing by steps](http://www.codewars.com/kata/reducing-by-steps)
 
 ### Reviewed
