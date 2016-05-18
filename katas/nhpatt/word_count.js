@@ -1,0 +1,1 @@
+const countWords = str => str.split(/\s+/g).filter(s => s.trim() != "").length;

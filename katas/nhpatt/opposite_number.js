@@ -1,0 +1,1 @@
+const opposite = n => -n;
