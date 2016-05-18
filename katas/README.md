@@ -4,9 +4,9 @@
 
 ### Pending
 
-* *[word count](http://www.codewars.com/kata/word-count/javascript)*
-* *[noobCode 01](http://www.codewars.com/kata/noobcode-01-supersize-me-dot-dot-dot-or-rather-this-integer)*
-* *[Opposite number](http://www.codewars.com/kata/opposite-number)*
+* [word count](http://www.codewars.com/kata/word-count/javascript)
+* [noobCode 01](http://www.codewars.com/kata/noobcode-01-supersize-me-dot-dot-dot-or-rather-this-integer)
+* [Opposite number](http://www.codewars.com/kata/opposite-number)
 
 ### Reviewed
 
