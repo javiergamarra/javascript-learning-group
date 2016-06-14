@@ -1,15 +1,15 @@
 "use strict";
 
-function padIt(str,n){
+function padIt(str, n) {
     let x = 0,
         answer = str;
 
-    while(x < Math.ceil(n / 2)){
+    while (x < Math.ceil(n / 2)) {
         answer = "*" + answer;
         x++;
     }
 
-    while(x < n){
+    while (x < n) {
         answer += "*";
         x++;
     }
@@ -17,7 +17,7 @@ function padIt(str,n){
     return answer;
 }
 
-function padItArray(str,n){
+function padItArray(str, n) {
     let x = Math.ceil(n / 2);
     let y = n - x;
 
@@ -27,10 +27,10 @@ function padItArray(str,n){
     return left.join("") + str + right.join("");
 }
 
-console.log(padIt("a",5));
+console.log(padIt("a", 5));
 
 /*
-Interesante
-let right = n >> 1;
+ Interesante
+ let right = n >> 1;
  let left = n - right;
-*/
+ */

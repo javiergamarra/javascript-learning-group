@@ -1,6 +1,6 @@
 "use strict";
 
-function differenceInAges(ages){
+function differenceInAges(ages) {
     let arr = ages.sort((a, b) => a - b);
 
     console.log(arr);
@@ -11,4 +11,4 @@ function differenceInAges(ages){
     return [minAge, maxAge, maxAge - minAge]
 }
 
-console.log(differenceInAges([ 46, 86, 33, 29, 87, 47, 28, 12, 1, 4, 78, 92 ]));
+console.log(differenceInAges([46, 86, 33, 29, 87, 47, 28, 12, 1, 4, 78, 92]));

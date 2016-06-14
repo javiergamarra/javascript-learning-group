@@ -3,7 +3,7 @@
 function pad(str, n) {
     let strLength = str.length;
 
-    if(strLength < n) {
+    if (strLength < n) {
         str = new Array(n - strLength).fill("0").join("") + str;
     }
 
@@ -17,7 +17,7 @@ function sumStrings(a, b) {
         result = "",
         carry = 0;
 
-    for(let i = maxLength - 1; i >= 0; i --) {
+    for (let i = maxLength - 1; i >= 0; i--) {
         let sum = Number(normA[i]) + Number(normB[i]) + carry;
         let toAdd = sum - (sum < 10 ? 0 : 10);
 
@@ -26,7 +26,7 @@ function sumStrings(a, b) {
         result = toAdd.toString() + result;
     }
 
-    if(carry > 0) {
+    if (carry > 0) {
         result = carry.toString() + result;
     }
 

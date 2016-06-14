@@ -1,6 +1,6 @@
 "use strict";
 
-Array.prototype.filter = function(fun) {
+Array.prototype.filter = function (fun) {
     let arr = [];
     let thisArg = arguments.length >= 2 ? arguments[1] : void 0;
 

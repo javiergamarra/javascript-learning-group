@@ -1,17 +1,17 @@
 "use strict";
 
-function sumConsecutives(arr){
+function sumConsecutives(arr) {
     let tmp = arr.map(x => [x, x]),
         solution = [];
 
-    for(let t of tmp) {
-        if(solution.length == 0) {
+    for (let t of tmp) {
+        if (solution.length == 0) {
             solution.push(t);
         }
         else {
             let s = solution[solution.length - 1];
 
-            if(s[0] == t[0]) {
+            if (s[0] == t[0]) {
                 s[1] += t[1];
             }
             else {
@@ -23,4 +23,4 @@ function sumConsecutives(arr){
     return solution.map(a => a[1]);
 }
 
-console.log(sumConsecutives([-5,-5,7,7,12,0]));
+console.log(sumConsecutives([-5, -5, 7, 7, 12, 0]));

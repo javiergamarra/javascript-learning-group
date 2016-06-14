@@ -1,3 +1,3 @@
-String.prototype.digit = function() {
+String.prototype.digit = function () {
     return Boolean(this.match(/^[0-9]$/));
 };

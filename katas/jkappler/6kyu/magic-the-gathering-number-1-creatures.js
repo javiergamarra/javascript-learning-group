@@ -10,7 +10,7 @@ function battle(player1, player2) {
     s1 = p1.filter((v, i) => p2[i][0] < v[1]).concat(player1.slice(len));
     s2 = p2.filter((v, i) => p1[i][0] < v[1]).concat(player2.slice(len));
 
-    return{ 'player1': s1, 'player2': s2}
+    return {'player1': s1, 'player2': s2}
 }
 
 let player1 = [[1, 1], [2, 1], [2, 2], [5, 5]];
