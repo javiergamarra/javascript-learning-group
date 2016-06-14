@@ -4,6 +4,9 @@
 
 ### Pending
 
+* [*](https://www.codewars.com/kata/5662292ee7e2da24e900012f)
+* [*](https://www.codewars.com/kata/56ae72854d005c7447000023)
+* [*](https://www.codewars.com/kata/printing-array-elements-with-comma-delimiters)
 * [regexp basics](http://www.codewars.com/kata/regexp-basics-is-it-a-digit)
 * [lario and muigi](http://www.codewars.com/kata/lario-and-muigi-pipe-problem)
 * [leonardo dicaprio and oscars](http://www.codewars.com/kata/leonardo-dicaprio-and-oscars)
@@ -24,6 +27,8 @@
 
 ### Pending
 
+* [*](https://www.codewars.com/kata/5616868c81a0f281e500005c)
+* [*](https://www.codewars.com/kata/5694d22eb15d78fe8d00003a)
 * [Bingo card](http://www.codewars.com/kata/bingo-card)
 * [Paths in the grid](http://www.codewars.com/kata/paths-in-the-grid)
 * [Decode diagonal](http://www.codewars.com/kata/decode-diagonal)
@@ -41,6 +46,7 @@
 
 ### Pending
 
+* [*](https://www.codewars.com/kata/52742f58faf5485cae000b9a)
 * [Recover a secret string](http://www.codewars.com/kata/recover-a-secret-string-from-random-triplets)
 * [Monads: The list monad](http://www.codewars.com/kata/monads-the-list-monad/javascript)
 
