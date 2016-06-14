@@ -4,9 +4,9 @@
 
 ### Pending
 
-* *http://www.codewars.com/kata/regexp-basics-is-it-a-digit*
-* *http://www.codewars.com/kata/lario-and-muigi-pipe-problem*
-* *http://www.codewars.com/kata/leonardo-dicaprio-and-oscars*
+* [regexp basics](http://www.codewars.com/kata/regexp-basics-is-it-a-digit)
+* [lario and muigi](http://www.codewars.com/kata/lario-and-muigi-pipe-problem)
+* [leonardo dicaprio and oscars](http://www.codewars.com/kata/leonardo-dicaprio-and-oscars)
 * [word count](http://www.codewars.com/kata/word-count/javascript)
 * [noobCode 01](http://www.codewars.com/kata/noobcode-01-supersize-me-dot-dot-dot-or-rather-this-integer)
 * [Opposite number](http://www.codewars.com/kata/opposite-number)
@@ -24,8 +24,8 @@
 
 ### Pending
 
-* *http://www.codewars.com/kata/bingo-card*
-* *http://www.codewars.com/kata/paths-in-the-grid*
+* [Bingo card](http://www.codewars.com/kata/bingo-card)
+* [Paths in the grid](http://www.codewars.com/kata/paths-in-the-grid)
 * [Decode diagonal](http://www.codewars.com/kata/decode-diagonal)
 * [Magic The Gathering](http://www.codewars.com/kata/magic-the-gathering-number-1-creatures)
 * [Reducing by steps](http://www.codewars.com/kata/reducing-by-steps)
@@ -41,7 +41,7 @@
 
 ### Pending
 
-* *http://www.codewars.com/kata/recover-a-secret-string-from-random-triplets*
+* [Recover a secret string](http://www.codewars.com/kata/recover-a-secret-string-from-random-triplets)
 * [Monads: The list monad](http://www.codewars.com/kata/monads-the-list-monad/javascript)
 
 ### Reviewed
