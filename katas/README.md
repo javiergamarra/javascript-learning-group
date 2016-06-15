@@ -10,9 +10,6 @@
 * [regexp basics](http://www.codewars.com/kata/regexp-basics-is-it-a-digit)
 * [lario and muigi](http://www.codewars.com/kata/lario-and-muigi-pipe-problem)
 * [leonardo dicaprio and oscars](http://www.codewars.com/kata/leonardo-dicaprio-and-oscars)
-* [word count](http://www.codewars.com/kata/word-count/javascript)
-* [noobCode 01](http://www.codewars.com/kata/noobcode-01-supersize-me-dot-dot-dot-or-rather-this-integer)
-* [Opposite number](http://www.codewars.com/kata/opposite-number)
 
 ### Reviewed
 
@@ -22,6 +19,9 @@
 * [Implement a filter function](http://www.codewars.com/kata/56dd9b84fe5754786f0014f7)
 * [Fix your code before the garden dies!](http://www.codewars.com/kata/57158fb92ad763bb180004e7)
 * [No zeros for heros](http://www.codewars.com/kata/570a6a46455d08ff8d001002)
+* [Opposite number](http://www.codewars.com/kata/opposite-number)
+* [noobCode 01](http://www.codewars.com/kata/noobcode-01-supersize-me-dot-dot-dot-or-rather-this-integer)
+* [word count](http://www.codewars.com/kata/word-count/javascript)
 
 ## 6 kyu
 
@@ -29,18 +29,18 @@
 
 * [*](https://www.codewars.com/kata/5616868c81a0f281e500005c)
 * [*](https://www.codewars.com/kata/5694d22eb15d78fe8d00003a)
-* [Bingo card](http://www.codewars.com/kata/bingo-card)
 * [Paths in the grid](http://www.codewars.com/kata/paths-in-the-grid)
-* [Decode diagonal](http://www.codewars.com/kata/decode-diagonal)
-* [Magic The Gathering](http://www.codewars.com/kata/magic-the-gathering-number-1-creatures)
-* [Reducing by steps](http://www.codewars.com/kata/reducing-by-steps)
 
 ### Reviewed
 
+* [Decode diagonal](http://www.codewars.com/kata/decode-diagonal)
 * [Hangman game](http://www.codewars.com/kata/hangman-game)
 * [Next version](http://www.codewars.com/kata/next-version)
 * [A memory game array](http://www.codewars.com/kata/a-memory-game-array)
 * [Odd/Even number of divisors](http://www.codewars.com/kata/55830eec3e6b6c44ff000040)
+* [Reducing by steps](http://www.codewars.com/kata/reducing-by-steps)
+* [Magic The Gathering](http://www.codewars.com/kata/magic-the-gathering-number-1-creatures)
+* [Bingo card](http://www.codewars.com/kata/bingo-card)
 
 ## 4 kyu
 
