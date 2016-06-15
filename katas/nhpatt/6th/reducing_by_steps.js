@@ -4,9 +4,7 @@ function gcdi(x, y) {
     x = Math.abs(x);
     y = Math.abs(y);
     while (y > 0) {
-        let temp = y;
-        y = x % y;
-        x = temp;
+        [x, y] = [y, x % y];
     }
     return x;
 }
