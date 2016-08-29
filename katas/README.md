@@ -7,11 +7,13 @@
 * [*](https://www.codewars.com/kata/5662292ee7e2da24e900012f)
 * [*](https://www.codewars.com/kata/56ae72854d005c7447000023)
 * [*](https://www.codewars.com/kata/printing-array-elements-with-comma-delimiters)
+
+
+### Reviewed
+
 * [regexp basics](http://www.codewars.com/kata/regexp-basics-is-it-a-digit)
 * [lario and muigi](http://www.codewars.com/kata/lario-and-muigi-pipe-problem)
 * [leonardo dicaprio and oscars](http://www.codewars.com/kata/leonardo-dicaprio-and-oscars)
-
-### Reviewed
 
 * [Methods of string object slice substring and substr](http://www.codewars.com/kata/training-js-number-16-methods-of-string-object-slice-substring-and-substr)
 * [Loop statement for dot in and for dot of](http://www.codewars.com/kata/training-js-number-12-loop-statement-for-dot-in-and-for-dot-of)
