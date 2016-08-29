@@ -1,0 +1,1 @@
+const countZeros = n => [...Array(n + 1)].map((_, i) => ('' + i).split('0').length - 1).reduce((x, y) => x + y) - 1;
