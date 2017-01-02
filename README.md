@@ -2,16 +2,26 @@
 
 # Katas
 
-* [Valid Parenthesis](https://www.codewars.com/kata/52774a314c2333f0a7000688)
-* [Moving zeros to the end](https://www.codewars.com/kata/52597aa56021e91c93000cb0)
-* [Where my anagrams at](https://www.codewars.com/kata/523a86aa4230ebb5420001e1)
+* [Basic Generators](https://www.codewars.com/kata/basics-generators-number-1/javascript)
+* [Default Rest Spread](https://www.codewars.com/kata/default-plus-rest-plus-spread)
+* [Fun with ES6 classes](https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance/train/javascript)
+* [Prime number generator](https://www.codewars.com/kata/prime-number-generator-simple-version)
+* [ES5 Generators](https://www.codewars.com/kata/es5-generators-i)
 
 ## Reviewed
 
+* [Valid Parenthesis](https://www.codewars.com/kata/52774a314c2333f0a7000688)
+* [Moving zeros to the end](https://www.codewars.com/kata/52597aa56021e91c93000cb0)
+* [Where my anagrams at](https://www.codewars.com/kata/523a86aa4230ebb5420001e1)
 * [Remove duplicates](https://www.codewars.com/kata/train-to-remove-duplicates-from-an-array-with-filter)
 * [Simple sequence](https://www.codewars.com/kata/simple-sequence-validator)
 * [Numbers in order](https://www.codewars.com/kata/are-the-numbers-in-order)
 * [Take or leave it](https://www.codewars.com/kata/take-it-or-leave-it-interview-strategy)
+
+# FIXME
+
+* missing summaries in Eloquent JS
+* automate: performance? testing? gulp?
 
 ## ES6 & Beyond
 
@@ -370,16 +380,3 @@ The solutions are:
 
 * [Eloquent Javascript](http://eloquentjavascript.net/)
 * [Annotated version](https://watchandcode.com/courses/eloquent-javascript-the-annotated-version)
-
-
-### FIXME
-
-* sum_of_range bug
-* missing exercises
-* missing summaries
-* performance?
-* testing?
-* gulp?
-* lint?
-* ecma6?
-* exploringJS?
